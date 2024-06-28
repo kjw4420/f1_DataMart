@@ -47,7 +47,7 @@ with DAG(
     dag_id="f1_allRace_Result_ELT",
     start_date=datetime(2024, 1, 1),
     catchup=False,
-    schedule=None,
+    schedule_interval=None,
 ) as dag:
     
     # 변수 가져오기
